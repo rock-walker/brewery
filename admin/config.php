@@ -17,7 +17,7 @@ define('DIR_CONFIG', 'D:\Projects\homeBeer\wwwroot/system/config/');
 define('DIR_CACHE', 'D:\Projects\homeBeer\wwwroot/system/storage/cache/');
 define('DIR_DOWNLOAD', 'D:\Projects\homeBeer\wwwroot/system/storage/download/');
 define('DIR_LOGS', 'D:\Projects\homeBeer\wwwroot/system/storage/logs/');
-define('DIR_MODIFICATION', 'D:\Projects\homeBeer\wwwroot/system/storage/modification/');
+define('DIR_MODIFICATION', 'D:\Projects\homeBeer\wwwroot/system/modification/');
 define('DIR_UPLOAD', 'D:\Projects\homeBeer\wwwroot/system/storage/upload/');
 define('DIR_CATALOG', 'D:\Projects\homeBeer\wwwroot/catalog/');
 
