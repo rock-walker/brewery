@@ -62,7 +62,7 @@
             });
             video.$wrap.css({
                 'position': 'absolute',
-                'z-index': -2
+                'z-index': 0
             })
             video.$wrap.parent().find('.' + video.settings.overlayClass).css({
                 'position': 'absolute',
@@ -82,9 +82,9 @@
                 width: '1920',
                 videoId: video.options.videoId,
                 playerVars: {
-                    controls: 0,
+                    autohide: 1,
+                    controls: 2,
                     showinfo: 0,
-                    modestbranding: 1,
                     wmode: 'transparent',
                     iv_load_policy: 3
                 },
